@@ -1,0 +1,31 @@
+{
+  "name": "delibery_backend",
+  "version": "1.0.0",
+  "description": "Backend de delivery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flutter",
+    "delivery",
+    "nodejs"
+  ],
+  "author": "Enrique Matencio",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^7.6.0",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^11.11.0",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.1",
+    "pg-promise": "^11.5.4"
+  }
+}
